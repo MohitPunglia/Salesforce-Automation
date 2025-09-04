@@ -1,1 +1,8 @@
 
+{
+    "base_url": "https://url.com",
+    "timeout": 60,
+    "headless": false,
+    "environment_name": "QA"
+}
+
