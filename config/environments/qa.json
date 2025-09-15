@@ -1,0 +1,6 @@
+{
+    "base_url": "https://smartestenergy--cpgsitqa.sandbox.my.salesforce.com",
+    "timeout": 60,
+    "headless": false,
+    "environment_name": "QA"
+}

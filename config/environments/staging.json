@@ -1,0 +1,6 @@
+{
+    "base_url": "https://test.salesforce.com",
+    "timeout": 90, 
+    "headless": true,
+    "environment_name": "Staging"
+}
