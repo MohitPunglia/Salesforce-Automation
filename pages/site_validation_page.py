@@ -17,13 +17,13 @@ class SiteValiationPage(BasePage):
     SITE_UPLOAD_COMMETNS = (By.XPATH, "//*[@class='slds-form-element__control slds-grow' and @type='text']")    
     UPLOAD_FILE_BUTTON = (By.XPATH, "//span[@class='slds-file-selector__button slds-button slds-button_neutral']")
     UPLOAD_BUTTON = ((By.CSS_SELECTOR, "input[type='file']"))
-    FILE_PATH = "C:\\Users\\PungliaM\\Downloads\\MPAN - Fixed HH new (1).csv"
+    FILE_PATH = "C:\\Users\\PungliaM\\Downloads\\MPAN.csv"
     
 
         
     def load(self):
         """Navigate to the login page"""
-        self.browser.get("https://smartestenergy--cpgsitqa.sandbox.lightning.force.com/lightning/r/Opportunity/006Ae00000jc0l3IAA/view?ws=%2Flightning%2Fr%2FAccount%2F001Ae00000ZK0kaIAD%2Fview")
+        self.browser.get("https://sandbox.lightning.force.com/lightning")
 
         """Opportunity home page Verification"""
     
